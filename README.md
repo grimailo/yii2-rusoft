@@ -1,6 +1,5 @@
 Тестовое задание для РУСОФТ
 ===========================
-Csv парсер
 
 Installation
 ------------
@@ -15,7 +14,7 @@ Usage
 Для использования перейдите по ссылке
 
 ```
-http://youDomenName/rusoft
+http://youDomainName/rusoft
 
 ```
 
