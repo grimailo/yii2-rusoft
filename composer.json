@@ -1,0 +1,31 @@
+{
+    "name": "grimailo/yii2-rusoft",
+    "description": "Тестовое задание для РУСОФТ",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","rusoft"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Артем",
+            "email": "mail.grimailo@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "kartik-v/yii2-grid":"^3.2",
+        "kartik-v/yii2-widget-activeform":"^1.5",
+        "parsecsv/php-parsecsv":"^1.1"
+    },
+  "extra": {
+    "bootstrap": "grimailo\\rusoft\\services\\Bootstrap"
+  },
+    "autoload": {
+        "psr-4": {
+            "grimailo\\rusoft\\": "src",
+            "grimailo\\rusoft\\controllers\\": "src/controllers",
+            "grimailo\\rusoft\\models\\": "src/models",
+            "grimailo\\rusoft\\views\\": "src/views",
+            "grimailo\\rusoft\\services\\": "src/services"
+        }
+    }
+}
