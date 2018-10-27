@@ -17,10 +17,6 @@ class CsvRow extends Model
 
   protected $propertyArr = [];
 
-//  public function __construct(...$arg)
-//  {
-//    $this->setPropertyArr(...$arg);
-//  }
 
   public function rules()
   {
@@ -29,12 +25,6 @@ class CsvRow extends Model
     ];
   }
 
-//  protected function setPropertyArr($property)
-//  {
-//    foreach ($property as $key => $value) {
-//      $this->propertyArr[$key] = $value;
-//    }
-//  }
 
   public function getPropertyName()
   {

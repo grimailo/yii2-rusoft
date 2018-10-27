@@ -120,7 +120,6 @@ class CsvParserController extends Controller
       $search->data[0] = $data;
     }
 
-//    var_dump($search->data);die();
     $search->save();
 
     return $this->redirect(Url::to(['/rusoft/csv-parser?fileName='.$fileName]));

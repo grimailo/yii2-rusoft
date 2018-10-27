@@ -10,7 +10,8 @@ use \yii\helpers\Url;
 
 $this->title = $fileName;
 
-$this->params['breadcrumbs'][] = ['label' => 'Выбрать другой файл', 'url' => \yii\helpers\Url::to(['/rusoft'])];
+$this->params['breadcrumbs'][] = ['label' => 'Выбрать другой файл',
+	'url' => Url::to(['/rusoft'])];
 $this->params['breadcrumbs'][] = 'Данные';
 ?>
 <div class="city-index">

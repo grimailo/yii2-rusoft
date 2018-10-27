@@ -8,12 +8,13 @@
 
 use \kartik\form\ActiveForm;
 use \yii\helpers\Html;
+use yii\helpers\Url;
 
 /**
  * @var grimailo\rusoft\models\UploadForm $upload
  */
 
-$this->params['breadcrumbs'][] = ['label' => 'Выбор файла', 'url' => \yii\helpers\Url::to(['/rusoft'])];
+$this->params['breadcrumbs'][] = ['label' => 'Выбор файла', 'url' => Url::to(['/rusoft'])];
 $this->params['breadcrumbs'][] = 'UploadFile';
 ?>
 <div class="row">
@@ -28,7 +29,7 @@ $this->params['breadcrumbs'][] = 'UploadFile';
     'text-align'=>'center'
   ]
 	],
-  'action'=>yii\helpers\Url::to(['/rusoft/select-csv/upload'])]) ?>
+  'action'=> Url::to(['/rusoft/select-csv/upload'])]) ?>
 
 <?= $form->field($upload, 'csv',['options'=>['style'=>['margin-left'=>'50px']]])->fileInput() ?>
 

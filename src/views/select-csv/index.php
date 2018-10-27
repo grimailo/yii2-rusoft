@@ -14,7 +14,7 @@ use \yii\helpers\Html;
 	</div>
 	<div  class="col-lg-12">
  <?php
-$form = ActiveForm::begin(['action'=>\yii\helpers\Url::to(['/rusoft/csv-parser',]),'method'=>'get'
+$form = ActiveForm::begin(['action'=>\yii\helpers\Url::toRoute(['/rusoft/csv-parser',]),'method'=>'get'
 	]);
 ?>
  <?=Html::listBox('fileName','0', $file, [
